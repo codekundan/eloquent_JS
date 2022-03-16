@@ -21,7 +21,7 @@ class Group {
     }
 }
 
-let grp = Group.from([10,20]); /* made mistake let grp = new Group.from([10,20]). After "new", there has to be a constructor */
+let grp = Group.from([10,20]); /* made mistake: let grp = new Group.from([10,20]). After "new" keyword, there has to be a constructor */
 console.log(grp.has(10));
 console.log(grp.has(30));
 grp.add(10);
